@@ -1,0 +1,30 @@
+> ecommerce-lab@1.0.0 test
+> jest --coverage
+
+ PASS  __tests__/products.test.js
+  Product API Tests
+    GET /products
+      ✓ should return all products (31 ms)
+    GET /products/ID
+      ✓ should return a product by ID (4 ms)
+      ✓ should return 404 if product not found (4 ms)
+    POST /products
+      ✓ should add a new product (29 ms)
+    PUT /products
+      ✓ should update an existing product (4 ms)
+      ✓ should return 404 if product not found (4 ms)
+    DELETE /products
+      ✓ should delete a product (8 ms)
+      ✓ should return 404 if product not found (3 ms)
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |    91.66 |     100 |     100 |
+ app.js   |     100 |    91.66 |     100 |     100 | 44
+----------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       8 passed, 8 total
+Snapshots:   0 total
+Time:        1.171 s
+Ran all test suites.

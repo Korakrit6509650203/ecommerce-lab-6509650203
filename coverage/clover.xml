@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1728987801097" clover="3.2.0">
-  <project timestamp="1728987801097" name="All files">
+<coverage generated="1729015784609" clover="3.2.0">
+  <project timestamp="1729015784609" name="All files">
     <metrics statements="33" coveredstatements="33" conditionals="12" coveredconditionals="11" methods="8" coveredmethods="8" elements="53" coveredelements="52" complexity="0" loc="33" ncloc="33" packages="1" files="1" classes="1"/>
-    <file name="app.js" path="/home/ec2-user/ecommerce-lab-6509650203/ecommerce-lab/app.js">
+    <file name="app.js" path="/home/ec2-user/ecommerce-lab-6509650203/app.js">
       <metrics statements="33" coveredstatements="33" conditionals="12" coveredconditionals="11" methods="8" coveredmethods="8"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
